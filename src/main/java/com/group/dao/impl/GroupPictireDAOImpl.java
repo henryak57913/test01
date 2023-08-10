@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class GroupPictireImpl implements GroupPictureDAO {
+public class GroupPictireDAOImpl implements GroupPictureDAO {
     @Autowired
     private GroupPictureRepository groupPictureRepository;
 

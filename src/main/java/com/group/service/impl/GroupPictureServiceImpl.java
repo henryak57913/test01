@@ -2,13 +2,14 @@ package com.group.service.impl;
 
 import com.group.dao.GroupPictureDAO;
 import com.group.entity.GroupPicture;
+import com.group.service.GroupPictureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Component
-public class GroupPictureService {
+public class GroupPictureServiceImpl implements GroupPictureService {
 
     @Autowired
     GroupPictureDAO groupPictureDAO;

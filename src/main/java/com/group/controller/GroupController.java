@@ -1,7 +1,7 @@
 package com.group.controller;
 
 import com.group.entity.Group;
-import com.group.service.impl.GroupService;
+import com.group.service.GroupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

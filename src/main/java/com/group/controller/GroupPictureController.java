@@ -1,7 +1,7 @@
 package com.group.controller;
 
 import com.group.entity.GroupPicture;
-import com.group.service.impl.GroupPictureService;
+import com.group.service.GroupPictureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

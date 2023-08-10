@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class RegFormImpl implements RegFormDAO {
+public class RegFormDAOImpl implements RegFormDAO {
     @Autowired
     RegFormRepository regFormRepository;
     @Override

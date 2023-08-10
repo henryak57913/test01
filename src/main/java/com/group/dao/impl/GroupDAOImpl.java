@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 //@RestController
-public class GroupImpl implements GroupDAO {
+public class GroupDAOImpl implements GroupDAO {
 
     @Autowired
     private GroupRepository groupRepository;

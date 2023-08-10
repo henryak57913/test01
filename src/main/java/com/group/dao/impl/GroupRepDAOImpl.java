@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class GroupRepImpl implements GroupRepDAO {
+public class GroupRepDAOImpl implements GroupRepDAO {
     @Autowired
     GroupRepRepository groupRepRepository;
 

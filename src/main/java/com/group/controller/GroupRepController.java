@@ -1,12 +1,13 @@
 package com.group.controller;
 
 import com.group.entity.GroupRep;
-import com.group.service.impl.GroupRepService;
+import com.group.service.GroupRepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 public class GroupRepController {
 
     @Autowired

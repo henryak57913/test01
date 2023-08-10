@@ -1,12 +1,14 @@
 package com.group.controller;
 
 import com.group.entity.MemberDetail;
-import com.group.service.impl.MemberDetailService;
+import com.group.service.MemberDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 public class MemberDetailController {
     @Autowired
     private MemberDetailService memberDetailService;

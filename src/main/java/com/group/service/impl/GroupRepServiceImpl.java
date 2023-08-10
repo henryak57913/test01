@@ -2,11 +2,15 @@ package com.group.service.impl;
 
 import com.group.dao.GroupRepDAO;
 import com.group.entity.GroupRep;
+import com.group.service.GroupPictureService;
+import com.group.service.GroupRepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public class GroupRepService {
+@Component
+public class GroupRepServiceImpl implements GroupRepService {
 
     @Autowired
     private GroupRepDAO groupRepDAO;
@@ -27,6 +31,7 @@ public class GroupRepService {
         groupRepDAO.delete(groupRepId);
     }
 
+
     public GroupRep getGroupRepByGroupRepId(Integer groupRepId) {
         return groupRepDAO.getGroupRepByGroupRepId(groupRepId);
     }
@@ -34,4 +39,5 @@ public class GroupRepService {
     public List<GroupRep> getAll() {
         return groupRepDAO.getAll();
     }
+
 }

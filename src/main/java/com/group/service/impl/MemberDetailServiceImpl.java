@@ -2,11 +2,14 @@ package com.group.service.impl;
 
 import com.group.dao.MemberDetailDAO;
 import com.group.entity.MemberDetail;
+import com.group.service.MemberDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public class MemberDetailService {
+@Component
+public class MemberDetailServiceImpl implements MemberDetailService {
     @Autowired
     MemberDetailDAO memberDetailDAO;
 

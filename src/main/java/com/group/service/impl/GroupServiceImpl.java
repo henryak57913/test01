@@ -2,13 +2,14 @@ package com.group.service.impl;
 
 import com.group.dao.GroupDAO;
 import com.group.entity.Group;
+import com.group.service.GroupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Component
-public class GroupService {
+public class GroupServiceImpl implements GroupService {
 
     @Autowired
     private GroupDAO groupDAO;

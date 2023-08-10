@@ -1,12 +1,15 @@
 package com.group.controller;
 
 import com.group.entity.RegForm;
-import com.group.service.impl.RegFormService;
+import com.group.service.RegFormService;
+import com.group.service.impl.RegFormServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 public class RegFormController {
 
     @Autowired
