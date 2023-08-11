@@ -1,38 +1,17 @@
 package tw.idv.cha102.g7.group.service;
 
-import tw.idv.cha102.g7.group.dao.RegFormDAO;
 import tw.idv.cha102.g7.group.entity.RegForm;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
-public class RegFormServiceImpl {
-    @Autowired
-    RegFormDAO regFormDAO;
+public interface RegFormService {
+    void insert(RegForm regForm);
 
-    public void insert(RegForm regForm){
-        regFormDAO.insert(regForm);
-    }
+    void update(Integer formId, RegForm regForm);
 
-    public void update(Integer formId, RegForm regForm){
-        if(getRegFormByFormId(formId) != null) {
-            regFormDAO.update(formId, regForm);
-        } else {
-            throw new RuntimeException();
-        }
-    }
+    void delete(Integer formId);
 
-    public void delete(Integer formId){
-        regFormDAO.delete(formId);
-    }
+    RegForm getRegFormByFormId(Integer formId);
 
-    public RegForm getRegFormByFormId(Integer formId){
-        return regFormDAO.getRegFormByFormId(formId);
-    }
-
-    public List<RegForm> getAll(){
-        return regFormDAO.getAll();
-    }
+    List<RegForm> getAll();
 }

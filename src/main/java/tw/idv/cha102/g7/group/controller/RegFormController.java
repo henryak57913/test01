@@ -1,16 +1,9 @@
 package tw.idv.cha102.g7.group.controller;
 
-<<<<<<< HEAD:src/main/java/tw/idv/cha102/g7/group/controller/RegFormController.java
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import tw.idv.cha102.g7.group.entity.RegForm;
 import tw.idv.cha102.g7.group.service.RegFormService;
-=======
-import com.group.entity.RegForm;
-import com.group.service.RegFormService;
-import com.group.service.impl.RegFormServiceImpl;
->>>>>>> 284128e589a7f6c3592f1d8d5b454cdf16347e34:src/main/java/com/group/controller/RegFormController.java
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 

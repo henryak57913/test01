@@ -1,16 +1,10 @@
-package tw.idv.cha102.g7.group.service;
+package tw.idv.cha102.g7.group.service.Impl;
 
-<<<<<<<< HEAD:src/main/java/tw/idv/cha102/g7/group/service/GroupRepService.java
-import tw.idv.cha102.g7.group.dao.GroupRepDAO;
-import tw.idv.cha102.g7.group.entity.GroupRep;
-========
-import com.group.dao.GroupRepDAO;
-import com.group.entity.GroupRep;
-import com.group.service.GroupPictureService;
-import com.group.service.GroupRepService;
->>>>>>>> 284128e589a7f6c3592f1d8d5b454cdf16347e34:src/main/java/tw/idv/cha102/g7/group/service/GroupRepServiceImpl.java
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import tw.idv.cha102.g7.group.dao.GroupRepDAO;
+import tw.idv.cha102.g7.group.entity.GroupRep;
+import tw.idv.cha102.g7.group.service.GroupRepService;
 
 import java.util.List;
 

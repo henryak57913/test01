@@ -1,4 +1,4 @@
-package tw.idv.cha102.g7.group.service;
+package tw.idv.cha102.g7.group.service.Impl;
 
 import tw.idv.cha102.g7.group.dao.RegFormDAO;
 import tw.idv.cha102.g7.group.entity.RegForm;
