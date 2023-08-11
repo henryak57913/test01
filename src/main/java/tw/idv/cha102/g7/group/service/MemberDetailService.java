@@ -1,12 +1,20 @@
 package tw.idv.cha102.g7.group.service;
 
+<<<<<<<< HEAD:src/main/java/tw/idv/cha102/g7/group/service/MemberDetailService.java
 import tw.idv.cha102.g7.group.dao.MemberDetailDAO;
 import tw.idv.cha102.g7.group.entity.MemberDetail;
+========
+import com.group.dao.MemberDetailDAO;
+import com.group.entity.MemberDetail;
+import com.group.service.MemberDetailService;
+>>>>>>>> 284128e589a7f6c3592f1d8d5b454cdf16347e34:src/main/java/tw/idv/cha102/g7/group/service/MemberDetailServiceImpl.java
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public class MemberDetailService {
+@Component
+public class MemberDetailServiceImpl implements MemberDetailService {
     @Autowired
     MemberDetailDAO memberDetailDAO;
 
