@@ -328,3 +328,6 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2023-08-11 13:29:44.178 [INFO] [http-nio-8080-exec-1] [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-11 13:29:44.179 [INFO] [http-nio-8080-exec-1] [525] Initializing Servlet 'dispatcherServlet'
 2023-08-11 13:29:44.180 [INFO] [http-nio-8080-exec-1] [547] Completed initialization in 1 ms
+2023-08-11 14:56:40.652 [INFO] [SpringApplicationShutdownHook] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 14:56:40.659 [INFO] [SpringApplicationShutdownHook] [350] HikariPool-1 - Shutdown initiated...
+2023-08-11 14:56:40.665 [INFO] [SpringApplicationShutdownHook] [352] HikariPool-1 - Shutdown completed.
