@@ -23,8 +23,10 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="0217c783-6fdd-4b11-8923-3df442861811" dataset="db01.dept2" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="0217c783-6fdd-4b11-8923-3df442861811" dataset="db01.emp2" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="0217c783-6fdd-4b11-8923-3df442861811" dataset="uandme.group" active-filter-id="" />
-    <filter-actions connection-id="0217c783-6fdd-4b11-8923-3df442861811" dataset="uandme.group_picture" active-filter-id="" />
+    <filter-actions connection-id="0217c783-6fdd-4b11-8923-3df442861811" dataset="uandme.group_picture" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
