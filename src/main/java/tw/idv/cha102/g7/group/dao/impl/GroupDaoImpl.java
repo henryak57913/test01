@@ -1,6 +1,6 @@
 package tw.idv.cha102.g7.group.dao.impl;
 
-import tw.idv.cha102.g7.group.dao.GroupDAO;
+import tw.idv.cha102.g7.group.dao.GroupDao;
 import tw.idv.cha102.g7.group.entity.Group;
 import tw.idv.cha102.g7.group.repository.GroupRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 //@RestController
-public class GroupDAOImpl implements GroupDAO {
+public class GroupDaoImpl implements GroupDao {
 
     @Autowired
     private GroupRepository groupRepository;

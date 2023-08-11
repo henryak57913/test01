@@ -1,13 +1,15 @@
 package tw.idv.cha102.g7.group.dao.impl;
 
-import tw.idv.cha102.g7.group.dao.MemberDetailDAO;
+import org.springframework.stereotype.Component;
+import tw.idv.cha102.g7.group.dao.MemberDetailDao;
 import tw.idv.cha102.g7.group.entity.MemberDetail;
 import tw.idv.cha102.g7.group.repository.MemberDetailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class MemberDetailDAOImpl implements MemberDetailDAO {
+@Component
+public class MemberDetailDaoImpl implements MemberDetailDao {
 
     @Autowired
     MemberDetailRepository memberDetailRepository;

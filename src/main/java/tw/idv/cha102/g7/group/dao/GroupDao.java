@@ -4,7 +4,7 @@ import tw.idv.cha102.g7.group.entity.Group;
 
 import java.util.List;
 
-public interface GroupDAO {
+public interface GroupDao {
     void insert(Group group);
     void update(Integer groupId ,Group group);
     void delete(Integer groupId);

@@ -2,7 +2,7 @@ package tw.idv.cha102.g7.group.service.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import tw.idv.cha102.g7.group.dao.MemberDetailDAO;
+import tw.idv.cha102.g7.group.dao.MemberDetailDao;
 import tw.idv.cha102.g7.group.entity.MemberDetail;
 import tw.idv.cha102.g7.group.service.MemberDetailService;
 
@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 public class MemberDetailServiceImpl implements MemberDetailService {
     @Autowired
-    MemberDetailDAO memberDetailDAO;
+    MemberDetailDao memberDetailDAO;
 
     public void insert(MemberDetail memberDetail){
         memberDetailDAO.insert(memberDetail);

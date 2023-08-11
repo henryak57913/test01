@@ -1,16 +1,17 @@
 package tw.idv.cha102.g7.group.service.Impl;
 
-import tw.idv.cha102.g7.group.dao.RegFormDAO;
+import tw.idv.cha102.g7.group.dao.RegFormDao;
 import tw.idv.cha102.g7.group.entity.RegForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import tw.idv.cha102.g7.group.service.RegFormService;
 
 import java.util.List;
 
 @Component
-public class RegFormServiceImpl {
+public class RegFormServiceImpl implements RegFormService {
     @Autowired
-    RegFormDAO regFormDAO;
+    RegFormDao regFormDAO;
 
     public void insert(RegForm regForm){
         regFormDAO.insert(regForm);

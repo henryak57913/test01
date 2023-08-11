@@ -2,7 +2,7 @@ package tw.idv.cha102.g7.group.service.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import tw.idv.cha102.g7.group.dao.GroupPictureDAO;
+import tw.idv.cha102.g7.group.dao.GroupPictureDao;
 import tw.idv.cha102.g7.group.entity.GroupPicture;
 import tw.idv.cha102.g7.group.service.GroupPictureService;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class GroupPictureServiceImpl implements GroupPictureService {
 
     @Autowired
-    GroupPictureDAO groupPictureDAO;
+    GroupPictureDao groupPictureDAO;
 
     public void insert(GroupPicture groupPicture) {
         groupPictureDAO.insert(groupPicture);

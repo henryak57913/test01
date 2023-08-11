@@ -1,6 +1,6 @@
 package tw.idv.cha102.g7.group.dao.impl;
 
-import tw.idv.cha102.g7.group.dao.RegFormDAO;
+import tw.idv.cha102.g7.group.dao.RegFormDao;
 import tw.idv.cha102.g7.group.entity.RegForm;
 import tw.idv.cha102.g7.group.repository.RegFormRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class RegFormDAOImpl implements RegFormDAO {
+public class RegFormDaoImpl implements RegFormDao {
     @Autowired
     RegFormRepository regFormRepository;
     @Override

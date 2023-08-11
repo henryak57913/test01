@@ -18,7 +18,7 @@ public class Group implements Serializable {
     private static final long serialVersionUID = 2072014924350494700L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //mysql的主鍵也需要設置自增
     @Column(name = "group_id")
     private Integer groupId;
     @Column(name = "mem_id")

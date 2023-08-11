@@ -3,16 +3,17 @@ package tw.idv.cha102.g7.group.service.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import tw.idv.cha102.g7.group.dao.GroupDAO;
+import tw.idv.cha102.g7.group.dao.GroupDao;
 import tw.idv.cha102.g7.group.entity.Group;
+import tw.idv.cha102.g7.group.service.GroupService;
 
 import java.util.List;
 
 @Component
-public class GroupServiceImpl implements GroupDAO {
+public class GroupServiceImpl implements GroupService {
 
     @Autowired
-    private GroupDAO groupDAO;
+    private GroupDao groupDAO;
 
     public void insert(Group group){
         groupDAO.insert(group);

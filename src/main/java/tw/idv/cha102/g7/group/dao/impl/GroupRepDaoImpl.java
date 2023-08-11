@@ -1,6 +1,6 @@
 package tw.idv.cha102.g7.group.dao.impl;
 
-import tw.idv.cha102.g7.group.dao.GroupRepDAO;
+import tw.idv.cha102.g7.group.dao.GroupRepDao;
 import tw.idv.cha102.g7.group.entity.GroupRep;
 import tw.idv.cha102.g7.group.repository.GroupRepRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class GroupRepDAOImpl implements GroupRepDAO {
+public class GroupRepDaoImpl implements GroupRepDao {
     @Autowired
     GroupRepRepository groupRepRepository;
 

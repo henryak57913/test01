@@ -1,6 +1,6 @@
 package tw.idv.cha102.g7.group.dao.impl;
 
-import tw.idv.cha102.g7.group.dao.GroupPictureDAO;
+import tw.idv.cha102.g7.group.dao.GroupPictureDao;
 import tw.idv.cha102.g7.group.entity.GroupPicture;
 import tw.idv.cha102.g7.group.repository.GroupPictureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class GroupPictireDAOImpl implements GroupPictureDAO {
+public class GroupPictireDaoImpl implements GroupPictureDao {
     @Autowired
     private GroupPictureRepository groupPictureRepository;
 
